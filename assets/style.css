@@ -1,5 +1,7 @@
 /* custom css for portfolio */
 
+/* TO DO - ADD TABLE CELL DISPLAY CLASSES */
+
 
 
 
@@ -40,6 +42,7 @@ NAVIGATION
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: 2;
 }
 .svg-inline--fa {
     color: #fff;
@@ -64,13 +67,26 @@ NAVIGATION
 
 /* hero container pic test */
 .hero_section {
-    background-image: url('images/dummy-2000X1500-Bottles.jpg');
+    background-image: url('images/dummy-2000X1500-Ocean.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
     height: 670px;
+    position: relative;
+    z-index: 1;
+}
+
+/* intermediate section after portfolio test */
+.interim_section {
+    background-image: url('images/dummy-2000X1500-Stones.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 240px;
     position: relative;
     z-index: 1;
 }
