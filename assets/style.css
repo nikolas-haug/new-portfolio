@@ -13,8 +13,8 @@ NAVIGATION
 
 .navbar-light {
     padding: 30px 10px;
-    transition: padding 0.3s;
-    background-color: red;
+    transition: padding 0.9s;
+    background-color: tomato;
 }
 .navbar-shrink {
     padding: 10px 10px;
@@ -60,6 +60,19 @@ NAVIGATION
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+/* hero container pic test */
+.hero_section {
+    background-image: url('images/dummy-2000X1500-Bottles.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+    position: relative;
+    z-index: 1;
 }
 
 
