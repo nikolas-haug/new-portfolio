@@ -26,17 +26,17 @@
     <!-- bootstrap navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand section-home" href="#brand">Nikolas Haug</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#">Home</a>
+                    <a class="nav-item nav-link section-home" href="#home">Home</a>
                     <a class="nav-item nav-link" href="#about" id="section-about">About</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Connect</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#portfolio" id="section-portfolio">Portfolio</a>
+                    <a class="nav-item nav-link" href="#connect" id="section-connect">Connect</a>
+                    <a class="nav-item nav-link" href="#contact" id="section-contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -45,8 +45,8 @@
     <!-- main section with pic and intro text -->
     <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-12 hero_section" style="display: table;">
-                <div style="display: table-cell; vertical-align: middle;">
+            <div class="col-12 hero_section table-display">
+                <div class="table-cell-display">
                 <!-- <h1 style="display: table-cell; vertical-align: middle;">My Portfolio</h1> -->
                 <!-- <h1>I am a </h1> -->
                     <h2>
@@ -69,8 +69,8 @@
 
     <!-- about me section -->
     <div class="container" id="about-section">
-        <div class="row">
-            <div class="col-md-4 text-center">
+        <div class="row mt-5">
+            <div class="col-md-4 text-center my-3">
                 <img src="http://via.placeholder.com/250x200" class="img-fluid" alt="">
             </div>
             <div class="col-md-4">
@@ -85,7 +85,7 @@
     </div>
 
     <!-- portfolio section -->
-    <div class="container">
+    <div class="container" id="portfolio-section">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1>Portfolio</h1>
@@ -93,8 +93,12 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4 col-sm-12">
-                <img src="assets/images/dummy-300x300-Antarctica.jpg" class="img-fluid" alt="">
-                <p>a short description of the work displayed above this caption</p>
+                <!-- <img src="assets/images/dummy-300x300-Antarctica.jpg" class="img-fluid" alt="">
+                <p>a short description of the work displayed above this caption</p> -->
+                <figure class="figure">
+                    <img src="assets/images/dummy-300x300-Antarctica.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                    <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                </figure>
             </div>
             <div class="col-md-4 col-sm-12">
                 <img src="assets/images/dummy-300x300-CantinoPlanisphere1502.jpg" class="img-fluid" alt="">
@@ -105,11 +109,11 @@
         </div>
     </div>
 
-    <!-- intermediate section after portfolio -->
-    <div class="container-fluid">
+    <!-- connect section after portfolio -->
+    <div class="container-fluid" id="connect-section">
         <div class="row text-center">
-            <div class="col-12 interim_section">
-                <div class="d-flex justify-content-center">
+            <div class="col-12 interim_section table-display">
+                <div class="table-cell-display">
                     <h1>github and linked in links etc</h1>
                 </div>
                 <!-- <img src="assets/images/dummy-2000x1500-Bottles.jpg" class="img-fluid" alt=""> -->
@@ -118,7 +122,7 @@
     </div>
 
     <!-- contact me section -->
-    <div class="container">
+    <div class="container" id="contact-section">
         <div class="text-center">
             <h2>contact me</h2>
             <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The</p>

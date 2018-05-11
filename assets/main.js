@@ -34,8 +34,23 @@ $(document).ready(function () {
     });
 
     // FOR THE NAVBAR SCROLLING FUNCTIONS - TO DO adjust offsets accordingly after section resize
+    $('.section-home').on('click', function() {
+        $('body,html').animate({
+            // Scroll to top of body
+            scrollTop : 0                       
+        }, 500);
+    });
     $('#section-about').on('click', function() {
-        $("html, body").animate({ scrollTop: $('#about-section').offset().top - 60}, 1000);
+        $("html, body").animate({ scrollTop: $('#about-section').offset().top - 90}, 1000);
+    });
+    $('#section-portfolio').on('click', function() {
+        $("html, body").animate({ scrollTop: $('#portfolio-section').offset().top - 60}, 1000);
+    });
+    $('#section-connect').on('click', function() {
+        $("html, body").animate({ scrollTop: $('#connect-section').offset().top - 60}, 1000);
+    });
+    $('#section-contact').on('click', function() {
+        $("html, body").animate({ scrollTop: $('#contact-section').offset().top - 60}, 1000);
     });
     
 
