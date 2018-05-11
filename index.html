@@ -33,9 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link" href="#">Disabled</a>
+                    <a class="nav-item nav-link" href="#about" id="section-about">About</a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Connect</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
                 </div>
             </div>
         </div>
@@ -47,16 +48,16 @@
             <div class="col-12 hero_section" style="display: table;">
                 <div style="display: table-cell; vertical-align: middle;">
                 <!-- <h1 style="display: table-cell; vertical-align: middle;">My Portfolio</h1> -->
-                <h1>I am a </h1>
+                <!-- <h1>I am a </h1> -->
                     <h2>
                         <span
                             class="txt-rotate"
                             data-period="500"
-                            data-rotate='[ "frontend developer", "badass" ]'>
+                            data-rotate='[ "frontend", "backend", "badass" ]'>
                         </span>
                     </h2>
                    
-                 <p>a short caption</p>
+                 <p>developer</p>
                 </div>
                 <!-- <img src="assets/images/dummy-2000x1500-Bottles.jpg" class="img-fluid" alt=""> -->
             </div>
@@ -67,18 +68,18 @@
     <a href="javascript:" id="return-to-top"><i class="fas fa-long-arrow-alt-up"></i></a>
 
     <!-- about me section -->
-    <div class="container">
+    <div class="container" id="about-section">
         <div class="row">
             <div class="col-md-4 text-center">
                 <img src="http://via.placeholder.com/250x200" class="img-fluid" alt="">
             </div>
             <div class="col-md-4">
                 <h3>About Me</h3>
-                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with</p>
+                <p>Hello! My name is Nikolas Haug. I am currently a student in the University of Minnesota Coding Boot Camp program in the Twin Cities. I've been learning to code on my own for about a year now, and am hoping this course will further extend and complement the knowledge I've acquired thus far. I'm very interested in the front-end side of development, but am looking forward to gaining a full-stack knowledge in the program.</p>
             </div>
             <div class="col-md-4">
                 <h4>Education</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary</p>
+                <p>In addition to my studies in code, I have a BA degree in English literature and French. I have worked as an ESL instructor abroad and at home, and continue to support local institutions as a volunteer or substitue when able. I love books and music, and have spent a lot of time making things with words and instruments. I believe these pursuits will avail me in the world of coding. I look forward to the new opportunities and possibilities that this course will present.</p>
             </div>
         </div>
     </div>
@@ -107,9 +108,9 @@
     <!-- intermediate section after portfolio -->
     <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-12 interim_section" style="display: table;">
-                <div style="display: table-cell; vertical-align: middle">
-                    <h1>and there's more to know always</h1>
+            <div class="col-12 interim_section">
+                <div class="d-flex justify-content-center">
+                    <h1>github and linked in links etc</h1>
                 </div>
                 <!-- <img src="assets/images/dummy-2000x1500-Bottles.jpg" class="img-fluid" alt=""> -->
             </div>
@@ -118,36 +119,40 @@
 
     <!-- contact me section -->
     <div class="container">
-            <div class="text-center">
-                <h2>contact me</h2>
-                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The</p>
-            </div>
-            
-                <form>
-
-                    <div class="form-group">
-                        <div class="row justify-content-center">
-                            <div class="col-sm-4">
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <div class="form-group">
-                        <div class="row justify-content-center text-center">
-                            <div class="col-md-8">
-                                <textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Message" required></textarea>
-                                <button id="submit" class="mt-3" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
-               
+        <div class="text-center">
+            <h2>contact me</h2>
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The</p>
         </div>
+        
+        <form>
+
+            <div class="form-group">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="form-group">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8">
+                        <textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Message" required></textarea>
+                        <button id="submit" class="mt-3" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+               
+    </div>
+
+    <footer class="text-center">
+        <h2>Nikolas Haug 2018</h2>
+    </footer>
 
 </body>
 </html>

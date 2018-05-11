@@ -17,7 +17,9 @@ NAVIGATION
     padding: 30px 10px;
     transition: padding 0.9s;
     background-color: tomato;
+    /* border: 2px solid black; */
 }
+
 .navbar-shrink {
     padding: 10px 10px;
 }
@@ -91,5 +93,12 @@ NAVIGATION
     z-index: 1;
 }
 
+/* ============================================
+FOOTER
+=============================================== */
 
+footer {
+    height: 70px;
+    background-color: tomato;
+}
   

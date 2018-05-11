@@ -5,9 +5,9 @@ $(document).ready(function () {
     $(window).scroll(function () {
         // Method 1: Using addClass and removeClass
         if ($(document).scrollTop() > 50) {
-           $('.navbar-light').addClass('navbar-shrink');
+            $('.navbar-light').addClass('navbar-shrink');
         } else {
-           $('.navbar-light').removeClass('navbar-shrink');
+            $('.navbar-light').removeClass('navbar-shrink');
         }
         // Method 2: Using toggleClass
         // $(".navbar-light").toggleClass("navbar-shrink", $(this).scrollTop() > 50)
@@ -16,19 +16,30 @@ $(document).ready(function () {
     // for scroll to top button
     // ===== Scroll to Top ==== 
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        // If page is scrolled more than 50px
+        if ($(this).scrollTop() >= 50) { 
+            // Fade in the arrow       
+            $('#return-to-top').fadeIn(200);    
         } else {
-            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            // Else fade out the arrow
+            $('#return-to-top').fadeOut(200);   
         }
     });
-    $('#return-to-top').click(function() {      // When arrow is clicked
+    // When arrow is clicked
+    $('#return-to-top').click(function() {      
         $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
+            // Scroll to top of body
+            scrollTop : 0                       
         }, 500);
     });
 
-    //for the animated head content text
+    // FOR THE NAVBAR SCROLLING FUNCTIONS - TO DO adjust offsets accordingly after section resize
+    $('#section-about').on('click', function() {
+        $("html, body").animate({ scrollTop: $('#about-section').offset().top - 60}, 1000);
+    });
+    
+
+    //for the animated text on home screen view
     var TxtRotate = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -79,11 +90,6 @@ $(document).ready(function () {
             new TxtRotate(elements[i], JSON.parse(toRotate), period);
           }
         }
-        // INJECT CSS
-        // var css = document.createElement("style");
-        // css.type = "text/css";
-        // css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-        // document.body.appendChild(css);
       };
 
 });
