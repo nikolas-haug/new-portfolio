@@ -1,6 +1,12 @@
 /* custom css for portfolio */
 
-/* TO DO - ADD TABLE CELL DISPLAY CLASSES */
+/* SAVED STYLES */
+/* ECF0F1 - off white */
+
+/* ============================================
+UNIVERSAL STYLES
+=============================================== */
+
 .table-display {
     display: table;
 }
@@ -10,9 +16,6 @@
     vertical-align: middle;
 }
 
-
-
-
 /* ============================================
 NAVIGATION
 =============================================== */
@@ -20,15 +23,13 @@ NAVIGATION
 .navbar-light {
     padding: 30px 20px;
     transition: padding 0.9s;
-    /* background-color: tomato; */
-    /* border: 2px solid black; */
     background-color: transparent;
     transition: all, 1s;
 }
 
 .navbar-shrink {
     padding: 10px 20px;
-    background-color: tomato;
+    background-color: #243A06;
     transition: all, 0.5s;
 }
 
@@ -89,7 +90,22 @@ NAVIGATION
     top: 5px;
 }
 
-/* hero container pic test */
+/* ============================================
+LINKS
+=============================================== */
+
+.svg-inline--fa a:focus {
+    text-decoration: none;
+}
+
+a i {
+    text-decoration: none;
+}
+
+/* ============================================
+ABOUT ME SECTION
+=============================================== */
+
 .hero_section {
     background-image: url('images/board-path.jpg');
     background-repeat: no-repeat;
@@ -101,6 +117,18 @@ NAVIGATION
     position: relative;
     z-index: 1;
 }
+
+.biography {
+    background-color: #ECF0F1;
+    overflow: auto;
+}
+
+
+
+
+
+
+
 
 /* intermediate section after portfolio test */
 .interim_section {
@@ -121,6 +149,7 @@ FOOTER
 
 footer {
     height: 100px;
-    background-color: tomato;
+    background-color: #243A06;
+    color: #fff;
 }
   

@@ -67,16 +67,16 @@
     <a href="javascript:" id="return-to-top"><i class="fas fa-long-arrow-alt-up"></i></a>
 
     <!-- about me section -->
-    <div class="container" id="about-section">
-        <div class="row mt-5">
-            <div class="col-md-4 text-center my-3">
+    <div class="container-fluid biography" id="about-section">
+        <div class="row">
+            <div class="col-md-4 text-center p-5">
                 <img src="assets/images/self-portrait-outside.jpg" class="img-fluid portrait" alt="a picture of Nikolas Haug">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pt-5">
                 <h4>About Me</h4>
                 <p>Highly creative developer with a passion for frontend design. Intensely committed to project details with a penchant for working with applicable libraries and frameworks in order to achieve seamless and responsive UX. </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pt-5">
                 <h4>Backgrounds</h4>
                 <p>Languages and literature, classical and modern, technology and paper. Insatiable curiosity about mountains and water.</p>
                 <h4>Education History</h4>
@@ -90,24 +90,67 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1>Portfolio</h1>
+                <hr>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-4 col-sm-12">
-                <!-- <img src="assets/images/dummy-300x300-Antarctica.jpg" class="img-fluid" alt="">
-                <p>a short description of the work displayed above this caption</p> -->
-                <figure class="figure">
-                    <img src="assets/images/dummy-300x300-Antarctica.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
-                </figure>
+                <a href="https://nikolas-haug.github.io/newsgeist/" target="_blank">
+                    <figure class="figure">
+                        <img src="assets/images/newsgeist-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <h5>Newsgeist</h5>
+                        <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                    </figure>
+                </a>
             </div>
             <div class="col-md-4 col-sm-12">
-                <img src="assets/images/dummy-300x300-CantinoPlanisphere1502.jpg" class="img-fluid" alt="">
+                <a href="https://nikolas-haug.github.io/giphyapp/" target="_blank">
+                    <figure class="figure">
+                        <img src="assets/images/gif-maker-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <h5>Gif Maker</h5>
+                        <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                    </figure>
+                </a>
             </div>
             <div class="col-md-4 col-sm-12">
-                <img src="assets/images/dummy-300x300-ClaudeBernouCarte.jpg" class="img-fluid" alt="">
+                <a href="http://www.boilerroommpls.com/" target="_blank">
+                    <figure class="figure">
+                        <img src="assets/images/boiler-room-website-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <h5>Boiler Room Coffee</h5>
+                        <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                    </figure>
+                </a>
             </div>
         </div>
+        <div class="row text-center">
+                <div class="col-md-4 col-sm-12">
+                    <a href="https://nikolas-haug.github.io/hangman-game/" target="_blank">
+                        <figure class="figure">
+                            <img src="assets/images/hangman-australian-animals-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <h5>Hangman - Australian Animals</h5>
+                            <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="https://nikolas-haug.github.io/week-4-game/" target="_blank">
+                        <figure class="figure">
+                            <img src="assets/images/crystals-collector-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <h5>Crystals Collector</h5>
+                            <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="https://nikolas-haug.github.io/triviagame/" target="_blank">
+                        <figure class="figure">
+                            <img src="assets/images/whale-trivia-game-screenshot.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <h5>Whale Trivia</h5>
+                            <figcaption class="figure-caption text-justify">A caption for the above image. A caption for the above image.A caption for the above image.A caption for the above image.A caption for the above image.</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
     </div>
 
     <!-- connect section after portfolio -->
@@ -115,7 +158,11 @@
         <div class="row text-center">
             <div class="col-12 interim_section table-display">
                 <div class="table-cell-display">
-                    <h1>github and linked in links etc</h1>
+                    <h1>
+                        <a href="#"><i class="fab fa-github-square mr-4" style="color: tomato; font-size: 75px;"></i>
+                        </a>
+                        <a href="#"><i class="fab fa-linkedin" style="color: black; font-size: 75px;"></i></a>
+                        <a href="#"><i class="fas fa-envelope-square ml-4" style="color: blue; font-size: 75px;"></i></a></h1>
                 </div>
                 <!-- <img src="assets/images/dummy-2000x1500-Bottles.jpg" class="img-fluid" alt=""> -->
             </div>
@@ -156,7 +203,7 @@
     </div>
 
     <footer class="text-center">
-        <h2>Nikolas Haug 2018</h2>
+        <h3 class="pt-3">Nikolas Haug 2018</h3>
     </footer>
 
 </body>

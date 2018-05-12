@@ -41,7 +41,7 @@ $(document).ready(function () {
         }, 500);
     });
     $('#section-about').on('click', function() {
-        $("html, body").animate({ scrollTop: $('#about-section').offset().top - 90}, 1000);
+        $("html, body").animate({ scrollTop: $('#about-section').offset().top - 60}, 1000);
     });
     $('#section-portfolio').on('click', function() {
         $("html, body").animate({ scrollTop: $('#portfolio-section').offset().top - 60}, 1000);
