@@ -1,8 +1,5 @@
 /* custom css for portfolio */
 
-/* SAVED STYLES */
-/* ECF0F1 - off white */
-
 /* ============================================
 UNIVERSAL STYLES
 =============================================== */
@@ -79,6 +76,7 @@ NAVIGATION
     z-index: 2;
 }
 
+/* font awesome arrow for scroll button */
 .svg-inline--fa {
     color: #fff;
     margin: 0;
@@ -110,16 +108,27 @@ LINKS
     text-decoration: none;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: #4C8FE5;
+    transition: all, 0.5s;
+}
+
 /* ============================================
 TYPOGRAPHY
 =============================================== */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.9px;
 }
 
 p, a {
     font-family: 'Source Serif Pro', serif;
+    letter-spacing: 0.5px;
 }
 
 
@@ -140,11 +149,12 @@ MAIN SECTION
 }
 
 .hero-text {
-    font-size: 54px;
+    font-size: 58px;
+    margin-bottom: 165px;
 }
 
 .hero-caption {
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
 }
 
@@ -170,8 +180,7 @@ hr {
 SOCIAL LINKS SECTION
 =============================================== */
 
-/* intermediate section after portfolio test */
-.interim_section {
+.connect_section {
     background-image: url('images/boats-harbor.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -186,6 +195,8 @@ SOCIAL LINKS SECTION
 /* ============================================
 CONTACT SECTION
 =============================================== */
+
+/* TO DO - style the form and make post requests */
 
 
 

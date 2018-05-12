@@ -1,4 +1,5 @@
 // custom js for portfolio
+
 $(document).ready(function () {
 
     //for animated navbar on scroll
@@ -34,6 +35,7 @@ $(document).ready(function () {
     });
 
     // FOR THE NAVBAR SCROLLING FUNCTIONS - TO DO adjust offsets accordingly after section resize
+    // TO DO - dry up this code
     $('.section-home').on('click', function() {
         $('body,html').animate({
             // Scroll to top of body
@@ -53,7 +55,6 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: $('#contact-section').offset().top - 60}, 1000);
     });
     
-
     //for the animated text on home screen view
     var TxtRotate = function(el, toRotate, period) {
         this.toRotate = toRotate;
