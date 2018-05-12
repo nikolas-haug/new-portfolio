@@ -32,6 +32,20 @@ NAVIGATION
     transition: all, 0.5s;
 }
 
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: blue;
+}
+
 /* scroll to top button in lower right of screen */
 #return-to-top {
     position: fixed;
@@ -77,7 +91,7 @@ NAVIGATION
 
 /* hero container pic test */
 .hero_section {
-    background-image: url('images/dummy-2000X1500-Ocean.jpg');
+    background-image: url('images/board-path.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -90,7 +104,7 @@ NAVIGATION
 
 /* intermediate section after portfolio test */
 .interim_section {
-    background-image: url('images/dummy-2000X1500-Stones.jpg');
+    background-image: url('images/boats-harbor.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
