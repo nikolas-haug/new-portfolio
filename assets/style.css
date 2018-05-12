@@ -36,6 +36,14 @@ NAVIGATION
 .navbar-light .navbar-brand {
     color: #fff;
     font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: black;
+    transition: all, 0.9s;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -44,7 +52,8 @@ NAVIGATION
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: blue;
+    color: black;
+    transition: all, 0.5s;
 }
 
 /* scroll to top button in lower right of screen */
@@ -69,6 +78,7 @@ NAVIGATION
     transition: all 0.3s ease;
     z-index: 2;
 }
+
 .svg-inline--fa {
     color: #fff;
     margin: 0;
@@ -82,9 +92,11 @@ NAVIGATION
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
+
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
@@ -99,7 +111,20 @@ LINKS
 }
 
 /* ============================================
-ABOUT ME SECTION
+TYPOGRAPHY
+=============================================== */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Overpass', sans-serif;
+}
+
+p, a {
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+/* ============================================
+MAIN SECTION
 =============================================== */
 
 .hero_section {
@@ -107,12 +132,25 @@ ABOUT ME SECTION
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
     height: 670px;
     position: relative;
     z-index: 1;
 }
+
+.hero-text {
+    font-size: 54px;
+}
+
+.hero-caption {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* ============================================
+ABOUT ME SECTION
+=============================================== */
 
 .biography {
     background-color: #ECF0F1;
@@ -138,8 +176,8 @@ SOCIAL LINKS SECTION
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
     height: 340px;
     position: relative;
     z-index: 1;
