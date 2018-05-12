@@ -98,10 +98,6 @@ LINKS
     text-decoration: none;
 }
 
-a i {
-    text-decoration: none;
-}
-
 /* ============================================
 ABOUT ME SECTION
 =============================================== */
@@ -123,12 +119,18 @@ ABOUT ME SECTION
     overflow: auto;
 }
 
+/* ============================================
+PORTFOLIO SECTION
+=============================================== */
 
+hr {
+    margin: 0 20% 3% 20%;;
+    background-color: #3F4045;
+}
 
-
-
-
-
+/* ============================================
+SOCIAL LINKS SECTION
+=============================================== */
 
 /* intermediate section after portfolio test */
 .interim_section {
@@ -142,6 +144,12 @@ ABOUT ME SECTION
     position: relative;
     z-index: 1;
 }
+
+/* ============================================
+CONTACT SECTION
+=============================================== */
+
+
 
 /* ============================================
 FOOTER
