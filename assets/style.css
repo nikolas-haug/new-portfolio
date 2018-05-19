@@ -81,7 +81,7 @@ NAVIGATION
     color: #fff;
     margin: 0;
     position: relative;
-    left: 19px;
+    left: 20px;
     top: 13px;
     font-size: 19px;
     -webkit-transition: all 0.3s ease;
@@ -139,7 +139,7 @@ MAIN SECTION
 .hero_section {
     background-image: url('images/board-path.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
