@@ -82,7 +82,7 @@ NAVIGATION
     margin: 0;
     position: relative;
     left: 20px;
-    top: 13px;
+    top: 15px;
     font-size: 19px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -139,7 +139,7 @@ MAIN SECTION
 .hero_section {
     background-image: url('images/board-path.jpg');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -183,7 +183,7 @@ SOCIAL LINKS SECTION
 .connect_section {
     background-image: url('images/boats-harbor.jpg');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
