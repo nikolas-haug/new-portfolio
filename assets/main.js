@@ -108,4 +108,11 @@ $(document).ready(function () {
         }
       };
 
+    //   $('#projects-display').hide();
+
+    //   // portfolio section
+    //   $('#btn-portfolio').on('click', function() {
+    //     $('#projects-display').slideToggle();
+    //   });
+
 });

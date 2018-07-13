@@ -26,7 +26,7 @@ NAVIGATION
 
 .navbar-shrink {
     padding: 10px 20px;
-    background-color: #243A06;
+    background-color: #2D3911;
     transition: all, 0.5s;
 }
 
@@ -149,6 +149,7 @@ MAIN SECTION
 }
 
 .hero-text {
+    height: 64px;
     font-size: 58px;
     margin-bottom: 165px;
 }
@@ -198,6 +199,13 @@ CONTACT SECTION
 
 /* TO DO - style the form and make post requests */
 
+#email-section a {
+    text-decoration: none;
+}
+
+#email-section a:hover {
+    color: tomato;
+}
 
 
 /* ============================================
@@ -205,8 +213,9 @@ FOOTER
 =============================================== */
 
 footer {
-    height: 100px;
-    background-color: #243A06;
+    height: 144px;
+    background-color: #2D3911;
     color: #fff;
+    padding-top: 22px;
 }
   
